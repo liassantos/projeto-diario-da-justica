@@ -1,0 +1,22 @@
+2024-09-14 18:30:13,576 - scraper.downloaderFunc - INFO - Driver do Chrome inicializado com sucesso
+2024-09-14 18:30:13,576 - scraper.downloaderFunc - INFO - Navegando para o Diário
+2024-09-14 18:30:14,835 - scraper.downloaderFunc - INFO - Título da página: Consulta de Diário da Justiça Eletrônico
+2024-09-14 18:30:14,840 - scraper.downloaderFunc - INFO - URL atual: https://esaj.tjce.jus.br/cdje/index.do;jsessionid=F5863C3AC94BBA73B9F063A08841E9BF.cdje1
+2024-09-14 18:30:14,840 - scraper.downloaderFunc - INFO - Tentando selecionar o caderno 2 - judiciário
+2024-09-14 18:30:14,905 - scraper.downloaderFunc - INFO - Caderno selecionado com sucesso
+2024-09-14 18:30:14,913 - scraper.downloaderFunc - INFO - Tentando clicar no botão de download
+2024-09-14 18:30:15,019 - scraper.downloaderFunc - INFO - Botão de download clicado com sucesso
+2024-09-14 18:30:25,022 - scraper.downloaderFunc - INFO - Aguardado 10 segundos após o clique no download
+2024-09-14 18:30:25,022 - scraper.downloaderFunc - INFO - Tentando fechar o navegador
+2024-09-14 18:30:27,332 - scraper.downloaderFunc - INFO - Navegador fechado com sucesso
+2024-09-14 18:30:33,412 - scraper.downloaderFunc - INFO - Driver do Chrome inicializado com sucesso
+2024-09-14 18:30:33,412 - scraper.downloaderFunc - INFO - Navegando para o Diário
+2024-09-14 18:30:34,657 - scraper.downloaderFunc - INFO - Título da página: Consulta de Diário da Justiça Eletrônico
+2024-09-14 18:30:34,661 - scraper.downloaderFunc - INFO - URL atual: https://esaj.tjce.jus.br/cdje/index.do;jsessionid=F5863C3AC94BBA73B9F063A08841E9BF.cdje1
+2024-09-14 18:30:34,661 - scraper.downloaderFunc - INFO - Tentando selecionar o caderno 2 - judiciário
+2024-09-14 18:30:34,738 - scraper.downloaderFunc - INFO - Caderno selecionado com sucesso
+2024-09-14 18:30:34,738 - scraper.downloaderFunc - INFO - Tentando clicar no botão de download
+2024-09-14 18:30:34,846 - scraper.downloaderFunc - INFO - Botão de download clicado com sucesso
+2024-09-14 18:30:44,846 - scraper.downloaderFunc - INFO - Aguardado 10 segundos após o clique no download
+2024-09-14 18:30:44,846 - scraper.downloaderFunc - INFO - Tentando fechar o navegador
+2024-09-14 18:30:48,674 - scraper.downloaderFunc - INFO - Navegador fechado com sucesso

@@ -67,3 +67,4 @@ finally:
         logger.info("Navegador fechado com sucesso")
     except Exception as e:
         logger.error(f"Erro ao fechar o navegador: {e}")
+        
