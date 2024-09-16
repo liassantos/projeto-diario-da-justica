@@ -1,3 +1,4 @@
+import os
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -6,14 +7,15 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 import time
 import logging
-
-logging.basicConfig()
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
+from dotenv import load_dotenv
 
 
 
 def download_pdf(url, downloadPath):
+    load_dotenv()
+
+    logger = logging.getLogger(__name__)
+    
     chrome_options = Options()
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--no-sandbox')
@@ -26,8 +28,11 @@ def download_pdf(url, downloadPath):
     chrome_options.add_experimental_option("prefs", prefs) 
 
     try:
-        service = Service(executable_path=r"C:\Users\liasa\OneDrive\Documentos\MeusProjetos\diario-da-justica\projeto-diario-da-justica\chromedriver.exe")
-        driver = webdriver.Chrome(service=service, options=chrome_options)
+        service = Service(executable_path=os.getenv(r"CHROMEDRIVER"))
+        driver = webdriver.Chrome(
+            service=service, 
+            options=chrome_options
+            )
         logger.info("Driver do Chrome inicializado com sucesso")
 
         try:
